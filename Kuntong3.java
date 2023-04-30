@@ -3,8 +3,7 @@ class Kuntong3 {
 
 public void breed_ran( String husband, String wife,String sex1,String sex2) {
   System.out.println(sex1+" 505 "+sex2);
-  // if((sex1.equals("ผู้")) && (sex2.equals("เมีย")))
-  if(sex1 == "ผู้"){
+   if((sex1.equals("ผู้")) && (sex2.equals("เมีย"))){
   //ผสมพันธ์
   System.out.println("\n---กำลังผสมพันธ์---");
   System.out.println("ข้าชื่อ "+husband+" เพศ"+sex1);
